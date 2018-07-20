@@ -32,6 +32,6 @@ setup(
     license="Apache",
     url="https://scopuli.tatarnikov.org",
     packages=find_packages(exclude=["tests"]),
-    long_description=open(join(dirname(__file__), 'README.rst')).read(),
+    long_description=open(join(dirname(__file__), 'README.md')).read(),
     include_package_data=True,
 )
